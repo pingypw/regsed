@@ -8,7 +8,7 @@ st.title("📊 Sales Prediction App (Linear Regression)")
 # Step 1: Load the trained model
 @st.cache_resource
 def load_model():
-    with open("model-reg-xxx.pkl", "rb") as file:
+    with open("model-reg-67130701703.pkl", "rb") as file:
         model = pickle.load(file)
     return model
 
@@ -33,3 +33,4 @@ if st.button("Predict Sales"):
 
 # Footer
 st.caption("Developed with ❤️ using Streamlit")
+
